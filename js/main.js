@@ -1,5 +1,9 @@
 function main(){
   $('.fader').hide();
-  $('.fader').fadeIn(5000);
+  $('.fader').fadeIn(2000);
 };
 $(document).ready(main);
+
+function dropDown(idname){
+	document.getElementById(idname).style.display='block';
+}

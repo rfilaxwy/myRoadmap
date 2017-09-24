@@ -1,10 +1,12 @@
 body {
-  background-color:rgba(34, 137, 186, 1);
-  font-weight: bold;
+  background-color:#9dbfd6 !important;
+  margin-right: 15%;
   font-family: Arial, sans-serif;
-  color: #FFF;
+  color: ;
 }
-
+h1, h2{
+  color:#4b6356;
+}
 header {
     top: 0;
     left:0;
@@ -34,16 +36,14 @@ a {
   background-color: black;
   border-radius: 8px;
 }
-.current {
-  background: #00ffff !important;
 }
 a:link, a:visited  {
-  color: blue;
+  color: #38db34;
   padding: 3px 2px;
   border-radius: 3px;
   text-align: center;
   text-decoration: none;
-  display: block;
+  display: inline;
 }
 
 a:hover {
@@ -55,6 +55,7 @@ a:hover {
 p {
   font-size: 15px;
   color: powderblue;
+  padding: 2% 5%;
 }
 
 h1{
@@ -100,8 +101,9 @@ h1{
 }
 
 .portrait{
-  border-radius: 10px 10px 20px 20px;
+  border-radius: 50%;
   width: 40%;
+  margin-left: 10%;
 }
 .leftNav{
   float: left;
@@ -123,7 +125,7 @@ h1{
   text-align: center;
 }
 
-.beyond {
+#beyond {
   display: none;
   background-color: grey;
   border-radius: 4px;

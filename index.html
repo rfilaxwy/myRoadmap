@@ -16,15 +16,12 @@
 	<header>
 		
 	    <div class='dropdown'>
-	    	<p>Seek and you shall find</p>
+	    	<div>Seek and you shall find</div>
 	      <div class='dropdown-content'>
-	       
-	          <a href=# class="current">Main</a>
 	          <a href="#about">About</a>
 	          <a href='#map'>Map</a>
 	          <a href='#contact'>Contact</a>
-	          <a href='#resources'>Resources</a>
-	        
+	          <a href='#resources'>Resources</a>       
 	      </div>
 	    </div>	
 	    
@@ -33,27 +30,82 @@
     <div class="proCon">
 		  <section id="about">
 		  	<h2 class="grower" id='about'>About</h2>
-			  <p>In what follows, I will lay out the resources, or nutrients if you will, that I have been feeding my kitten body and mind.</p>
-			  <p>If you want to jump ahead to the resources section and begin feeding your own kitten body I would be hard pressed to judge you as i am merely and aloof kitten. So by all means forge ahead using the left nav bar.</p>
-			  <p>In either event I wish you good fortune in your feline path and drop me a yarn if you have any questions or comments.</p>
+			  <p>In what follows, I will lay out the resources, or nutrients, that I have been feeding my programming ghoul. If you want to jump ahead to the resources section and begin feeding your own growing ghoul I would be hard pressed to judge you as ghoul husbandry is a long fun and fascinating journey and growing your very own programming ghoul is likely a pressing matter. So by all means forge ahead using the navigation bar on the left. In either event I wish you good fortune in your feline path and drop me a yarn if you have any questions or comments.</p>
 		  </section>
 		  <section>
 	        <h2 class="grower" id='map'>Map</h2>
-	        	<p>My timeline is not fully accurate in respect to the individual modules but the entire timeline is itself accurate to the day.</p>
-	        	<p>I really began learning python on coursera and when i found that i could really see the utility i stepped back from coding for approximately 2mnths. At this point i found an article on <a>tech in asia titled 5 months to developer.CHECK FOR ACCURACY OF TITLE</a>I started off with the courses listed there and after completing the frist two months found myself having the skill to branch out from this route and also the disire to pull from other resources.</p>
-	        	</p>
-	        	<p></p>
+	        	<p>It all began in 2016 when i felt a ghoulish wave wash over me and grasp my guts with a desire to start programming. It was at this moment i realized i had a programming ghoul hatchling of my very own growing inside of me. Not wanting my hatchling to become a cantankerous little wretch i decided to feed it the right nutrients but this took a good deal of digging.
+	        		I really began learning python on coursera and when i found that i could really see the utility i stepped back from coding for approximately 2mnths. At this point i found this article on <a href='https://www.techinasia.com/talk/5-month-guide-learn-code-get-hired'>Tech in Asia about becoming a developer</a>.I started off with the courses listed there and after completing the frist two months found myself having the skill to branch out from this route and also the disire to pull from other resources.</p>
 	      </section>
 	      <section>
 	        <h2>Contact</h2>
-	        	<div class='row'>
-	        		<div class='col-md-4'> <p>Email</p></div>
-	            	<div class='col-md-4'><p>git</p></div>
-		        	<div class='col-md-4'><p>instagram</p></div>
-		        </div>
+	        	<div class='col-md-12'>
+	        		<div class='well'>
+	        			<div class='row'>	        		
+			        		<div class='col-md-4'><button class='btn btn-primary' href='#'><i class='fa fa-paper-plane'></i>email</button></div>
+			            	<div class='col-md-4'><button class='btn btn-primary' href='#'><i class='fa fa-paper-plane'></i>git</button></div>
+				        	<div class='col-md-4'><button class='btn btn-primary' href='#'><i class='fa fa-paper-plane'></i>instagram</button></div>
+			        	</div>
+		        	</div>
+		    	</div>
 	      </section>
 	      <section>
 	        <h2 class="grower" id='resources'>Resources</h2>
+	        	<ul>
+	        		<ul>
+	        			<h4>HTML</h4>
+	        			<li></li>
+		        		<li></li>
+		        		<li></li>
+		        		<li></li>
+		        	</ul>
+		        	<ul>
+		        		<h4>CSS</h4>
+	        			<li></li>
+		        		<li></li>
+		        		<li></li>
+		        		<li></li>
+		        	</ul>	
+		        	<ul>
+		        		<h4>Javascript</h4>
+	        			<li></li>
+		        		<li></li>
+		        		<li></li>
+		        		<li></li>
+		        	</ul>		
+	        		<ul>
+	        			<h4>Python</h4>
+	        			<li></li>
+		        		<li></li>
+		        		<li></li>
+		        		<li></li>
+		        	</ul>
+		        	<ul>
+		        		<h4>Git</h4>
+	        			<li></li>
+		        		<li></li>
+		        		<li></li>
+		        		<li></li>
+		        	</ul>	
+		        	<ul>
+		        		<h4>jQuery</h4>
+	        			<li></li>
+		        		<li></li>
+		        		<li></li>
+		        		<li></li>
+		        	</ul>
+		        	<ul>
+		        		<h4>Bootstrap</h4>
+	        			<li></li>
+		        		<li></li>
+		        		<li></li>
+		        		<li></li>
+		        	</ul>			
+
+
+
+
+	        	</ul>
 	      </section>
     </div>
   <div class='leftNav'>
@@ -87,8 +139,8 @@
 	      		<li></li>
 	      </ul>
 	  </li>
-      <li onmouseover="getElementByClass('beyond').style.display='block'">Beyond
-	      <ul class='beyond'>
+      <li onmouseover="dropDown('beyond')">Beyond
+	      <ul id='beyond'>
 	      		<li>plank</li>
 	      		<li>clanks</li>
 	      		<li>frank</li>
@@ -102,9 +154,10 @@
 	     &copy; 2017 RfloxyW
    	 </footer>
 	</div>
-  <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
-  <script src='js/main.js'></script> 
+  
 </div>
+<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+  <script src='js/main.js'></script> 
 </body>
 
 </html>
